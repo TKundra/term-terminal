@@ -1,0 +1,25 @@
+{
+  "name": "term-terminal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "bin": {
+    "term": "./bin/index.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^8.0.0",
+    "boxen": "^7.0.0",
+    "chalk": "^5.0.1",
+    "yargs": "^17.5.1"
+  }
+}
